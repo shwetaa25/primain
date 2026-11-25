@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Multi-Region Lab</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 3rem; background: #f4f5f7; }
+    main { max-width: 700px; margin: auto; background: white;
+           padding: 2rem; border-radius: 12px; }
+    .tag { color: #800020; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Multi-Region Cloud Architecture Lab</h1>
+    <p class="tag">Deployment: PRIMARY</p>
+    <p>This page represents the primary public deployment.</p>
+    <p id="time"></p>
+  </main>
+  <script>document.getElementById("time").textContent =
+    "Browser time: " + new Date().toLocaleString();</script>
+</body>
+</html>
